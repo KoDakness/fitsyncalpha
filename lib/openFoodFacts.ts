@@ -1,6 +1,6 @@
 import { FoodItem } from './foodDatabase';
 
-const API_URL = 'https://world.openfoodfacts.org/cgi/search.pl';
+const API_URL = 'https://world.openfoodfacts.org/';
 
 export async function searchOpenFoodFacts(query: string): Promise<FoodItem[]> {
   try {
